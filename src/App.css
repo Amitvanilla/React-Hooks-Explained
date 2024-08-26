@@ -1,0 +1,51 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.counter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    .count{
+        font-size: 50px;
+    }
+    button{
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+    }
+
+}
+
+.notes{
+    text-align: left;
+    background: #000;
+    color: #d3d0d0;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Hooks_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.App-header{
+    width: 100%;
+    background: #000;
+    color: #d3d0d0;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+}
